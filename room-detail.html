@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Details - RoomRental</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="roomdetail.css">
+<header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo"><i class="fas fa-hotel"></i>Room<span>Rental</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="view-more-apartment.html">Apartments</a></li>
+        <li><a href="hotel.html">Hotels</a></li>
+        <li><a href="condo.html">Condos</a></li>
+        <li><a href="standard-rooms.html" class="active">Rooms-Rent</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="room-detail-container">
+      <div class="room-images">
+        <img src="https://images.unsplash.com/photo-1560448204-ff6c2f1e9f7a?auto=format&fit=crop&w=800&q=80" alt="Main Room Image" class="main-image">
+        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80" alt="Room Image 2">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=400&q=80" alt="Room Image 3">
+      </div>
+      
+      <div class="room-info">
+        <h1>Luxury Apartment with City View</h1>
+        <div class="price">$320 / month</div>
+        
+        <p>This stunning luxury apartment offers breathtaking city views from every window. Located in the heart of downtown, it features modern amenities and high-end finishes throughout. The spacious layout is perfect for both relaxing and entertaining.</p>
+        
+        <div class="features">
+          <h3>Apartment Features:</h3>
+          <ul>
+            <li>3 bedrooms with walk-in closets</li>
+            <li>2 modern bathrooms with rain showers</li>
+            <li>Spacious living area with floor-to-ceiling windows</li>
+            <li>Gourmet kitchen with stainless steel appliances</li>
+            <li>Private balcony with panoramic city views</li>
+            <li>In-unit washer and dryer</li>
+            <li>Secure building with 24/7 concierge</li>
+            <li>Access to building amenities: gym, pool, lounge</li>
+            <li>Hardwood floors throughout</li>
+            <li>Smart home system with climate control</li>
+            <li>Soundproof windows for quiet living</li>
+            <li>Designer lighting fixtures</li>
+          </ul>
+        </div>
+        
+        <div class="amenities">
+          <div class="amenity">
+            <i class="fas fa-wifi"></i>
+            <span>High-speed WiFi</span>
+          </div>
+          <div class="amenity">
+            <i class="fas fa-parking"></i>
+            <span>Parking available</span>
+          </div>
+          <div class="amenity">
+            <i class="fas fa-utensils"></i>
+            <span>Kitchen equipped</span>
+          </div>
+          <div class="amenity">
+            <i class="fas fa-swimming-pool"></i>
+            <span>Swimming pool</span>
+          </div>
+          <div class="amenity">
+            <i class="fas fa-dumbbell"></i>
+            <span>Fitness center</span>
+          </div>
+          <div class="amenity">
+            <i class="fas fa-smoking-ban"></i>
+            <span>Non-smoking</span>
+          </div>
+        </div>
+        
+        <button class="btn-book" id="bookNowBtn">
+          <i class="fas fa-calendar-check"></i> Book Now
+        </button>
+      </div>
+    </div>
+    
+    <div class="similar-rooms">
+      <h2><i class="fas fa-star"></i> Similar Rooms You Might Like</h2>
+      <div class="room-grid">
+        <div class="room-card">
+          <img src="https://images.unsplash.com/photo-1613977257592-487687f9e068?auto=format&fit=crop&w=400&q=80" alt="Similar Room 1">
+          <div class="room-card-info">
+            <h3>Modern Studio Apartment</h3>
+            <div class="price">$180 / month</div>
+            <p>Cozy studio with modern design and city views.</p>
+            <button class="btn-book">
+              <i class="fas fa-calendar-check"></i> Book Now
+            </button>
+          </div>
+        </div>
+        
+        <div class="room-card">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=400&q=80" alt="Similar Room 2">
+          <div class="room-card-info">
+            <h3>City View Apartment</h3>
+            <div class="price">$280 / month</div>
+            <p>Beautiful apartment with stunning city skyline views.</p>
+            <button class="btn-book">
+              <i class="fas fa-calendar-check"></i> Book Now
+            </button>
+          </div>
+        </div>
+        
+        <div class="room-card">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80" alt="Similar Room 3">
+          <div class="room-card-info">
+            <h3>Luxury Penthouse</h3>
+            <div class="price">$450 / month</div>
+            <p>Spacious penthouse with luxury amenities and terrace.</p>
+            <button class="btn-book">
+              <i class="fas fa-calendar-check"></i> Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="footer-logo">Room<span>Rental</span></div>
+        <p>Your trusted partner for quality accommodations in Cambodia.</p>
+        <p>We offer the best apartments, hotels, condos, and standard rooms at competitive prices.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-phone"></i> +855 12 345 678</p>
+        <p><i class="fas fa-envelope"></i> info@roomrental.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> #123, Street 456, Phnom Penh</p>
+        
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="view-more-apartment.html">Apartments</a></p>
+        <p><a href="hotel.html">Hotels</a></p>
+        <p><a href="condo.html">Condos</a></p>
+        <p><a href="standard-rooms.html">Standard Rooms</a></p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 RoomRental. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="roomdetail.js"></script>
+</body>
+</html>
